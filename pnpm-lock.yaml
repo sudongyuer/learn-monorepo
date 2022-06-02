@@ -25,7 +25,10 @@ importers:
 
   packages/test:
     specifiers:
+      package-c: workspace:*
       vitest: ^0.13.1
+    dependencies:
+      package-c: link:../package-c
     devDependencies:
       vitest: 0.13.1
 
