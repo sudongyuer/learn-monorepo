@@ -1,5 +1,5 @@
 function sayHelloA(){
-  
+ console.log('a') 
 }
 
 export {
