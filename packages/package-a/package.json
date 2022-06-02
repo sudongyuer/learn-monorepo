@@ -8,6 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
+  "types": "index.d.ts",
   "author": "sudongyuer",
   "license": "MIT",
   "devDependencies": {
