@@ -8,7 +8,8 @@
     "changeset":"changeset add",
     "build:all": "pnpm build -r",
     "version": "changeset version",
-    "publish": "changeset publish"
+    "release": "pnpm build:all && release:only",
+    "release:only":"changeset publish --registry=https://registry.npmjs.org"
   },
   "author": "sudongyuer",
   "license": "MIT",
