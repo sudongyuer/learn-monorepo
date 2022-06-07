@@ -1,5 +1,12 @@
 # @haiyaotec/test
 
+## 4.0.1
+
+### Patch Changes
+
+- patch
+- 38d13c9: patch
+
 ## 4.0.0
 
 ### Major Changes
