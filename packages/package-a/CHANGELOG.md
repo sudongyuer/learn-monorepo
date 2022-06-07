@@ -1,7 +1,7 @@
-# package-a
+# @haiyaotec/package-a
 
-## 1.0.1
+## 3.0.0
 
-### Patch Changes
+### Major Changes
 
-- 0cc65ac: init monorepo
+- update packages name

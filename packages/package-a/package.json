@@ -1,6 +1,6 @@
 {
-  "name": "package-a",
-  "version": "1.0.1",
+  "name": "@haiyaotec/package-a",
+  "version": "3.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
