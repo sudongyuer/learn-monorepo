@@ -1,12 +1,12 @@
 {
   "name": "package-c",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"tsc"
+    "build": "tsc"
   },
   "author": "sudongyuer",
   "license": "MIT",
