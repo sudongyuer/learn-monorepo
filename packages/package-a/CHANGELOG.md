@@ -1,5 +1,11 @@
 # @haiyaotec/package-a
 
+## 3.0.2
+
+### Patch Changes
+
+- test patch
+
 ## 3.0.1
 
 ### Patch Changes

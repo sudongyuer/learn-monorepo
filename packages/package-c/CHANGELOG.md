@@ -1,5 +1,11 @@
 # @haiyaotec/package-c
 
+## 4.0.2
+
+### Patch Changes
+
+- test patch
+
 ## 4.0.1
 
 ### Patch Changes
