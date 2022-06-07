@@ -1,0 +1,5 @@
+---
+"@haiyaotec/test": patch
+---
+
+patch
