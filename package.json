@@ -9,7 +9,7 @@
     "build:all": "pnpm build -r",
     "version": "changeset version",
     "release": "pnpm build:all && pnpm release:only",
-    "release:only":"changeset publish --registry=https://registry.npmjs.org"
+    "release:only":"changeset publish"
   },
   "author": "sudongyuer",
   "license": "MIT",
@@ -20,8 +20,5 @@
   },
   "dependencies": {
     "lodash": "^4.17.21"
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }
