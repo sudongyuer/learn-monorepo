@@ -1,5 +1,11 @@
 # @haiyaotec/test
 
+## 4.0.6
+
+### Patch Changes
+
+- d9efe3e: Update basic.test.ts
+
 ## 4.0.5
 
 ### Patch Changes
