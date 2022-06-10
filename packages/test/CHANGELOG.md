@@ -1,5 +1,13 @@
 # @haiyaotec/test
 
+## 4.0.5
+
+### Patch Changes
+
+- e9f7ac8: Update basic.test.ts
+- be861ae: Update basic.test.ts
+- d313d94: chore: update comment
+
 ## 4.0.4
 
 ### Patch Changes
