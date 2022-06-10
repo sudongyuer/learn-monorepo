@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - master
+env:
+  CI: true
+  PNPM_CACHE_FOLDER: .pnpm-store      
 
 jobs:
   release:
@@ -20,9 +23,10 @@ jobs:
         with:
           node-version: 14
 
-      - name: install pnpm
-        run: npm i pnpm@latest -g
-
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2.2.2
+        with:
+          version: 7
       - name: install dependencies
         run: pnpm install
 
