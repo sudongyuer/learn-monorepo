@@ -1,5 +1,11 @@
 # @haiyaotec/test
 
+## 4.0.4
+
+### Patch Changes
+
+- test
+
 ## 4.0.3
 
 ### Patch Changes
