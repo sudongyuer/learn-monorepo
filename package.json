@@ -5,15 +5,11 @@
   "main": "index.js",
   "scripts": {
     "changeset": "changeset add",
-    "build:all": "pnpm build -r",
+    "build:all": "pnpm run turbo run build",
     "version": "changeset version",
     "release": "pnpm build:all && pnpm release:only",
     "release:only": "changeset publish",
-    "sayHello": "echo \"Hello World\"",
-     "build": "turbo run build",
-    "test": "turbo run test",
-    "lint": "turbo run lint",
-    "dev": "turbo run dev"
+    "sayHello": "echo \"Hello World\""
   },
   "author": "sudongyuer",
   "license": "MIT",

@@ -20,8 +20,6 @@
     "deploy":{
       "dependsOn": ["build", "test"],
       "outputs": []
-    },
-    "sayHello":{
-     }
+    }
   }
 }
