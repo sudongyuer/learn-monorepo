@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "changeset": "changeset add",
-    "build:all": "pnpm run turbo run build",
+    "build:all": "pnpm turbo run build",
     "version": "changeset version",
     "release": "pnpm build:all && pnpm release:only",
     "release:only": "changeset publish",
