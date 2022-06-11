@@ -1,5 +1,11 @@
 # @haiyaotec/test
 
+## 4.0.8
+
+### Patch Changes
+
+- a8be020: chore: update
+
 ## 4.0.7
 
 ### Patch Changes
