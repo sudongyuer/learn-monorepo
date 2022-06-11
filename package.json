@@ -4,18 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "changeset":"changeset add",
+    "changeset": "changeset add",
     "build:all": "pnpm build -r",
     "version": "changeset version",
     "release": "pnpm build:all && pnpm release:only",
-    "release:only":"changeset publish"
+    "release:only": "changeset publish",
+    "sayHello": "echo \"Hello World\"",
+     "build": "turbo run build",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "dev": "turbo run dev"
   },
   "author": "sudongyuer",
   "license": "MIT",
   "devDependencies": {
     "@changesets/cli": "^2.22.0",
     "@types/lodash": "^4.14.182",
+    "turbo": "^1.2.16",
     "typescript": "^4.7.3"
   },
   "dependencies": {
