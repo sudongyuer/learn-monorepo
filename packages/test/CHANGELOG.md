@@ -1,5 +1,11 @@
 # @haiyaotec/test
 
+## 4.0.7
+
+### Patch Changes
+
+- 7de3fc2: chore: update
+
 ## 4.0.6
 
 ### Patch Changes
